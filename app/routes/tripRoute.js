@@ -11,6 +11,6 @@ router.post('/trips', verifyAuth, createTrip);
 router.get('/trips', verifyAuth, getAllTrips);
 router.patch('/trips/:tripId', verifyAuth, cancelTrip);
 router.get('/trips/origin', verifyAuth, filterTripByOrigin);
-router.post('/trips/destination', verifyAuth, filterTripByDestination);
+router.get('/trips/destination', verifyAuth, filterTripByDestination);
 
 export default router;
