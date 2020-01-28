@@ -8,7 +8,6 @@ A public bus transportation booking server, developed the back-end API with Node
 - [Contributing](#contributing)
 - [Prerequisites](#prerequisites)
 - [Settings](#settings)
-- [API Documentation](#documentation)
 - [License](#license)
 
 
@@ -112,9 +111,6 @@ A public bus transportation booking server, developed the back-end API with Node
    ```shell
    $ npm run test
    ```
-## Documentation
-   POSTMAN : https://documenter.getpostman.com/view/6229713/SVSHrpDW
-
 ## License
    None for now.
 
