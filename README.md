@@ -117,3 +117,5 @@ A public bus transportation booking server, developed the back-end API with Node
 
 ## License
    None for now.
+
+developed with 💕 by Blessing Krofegha
