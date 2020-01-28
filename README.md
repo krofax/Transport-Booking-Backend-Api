@@ -1,10 +1,5 @@
-[![Build Status](https://travis-ci.org/oyewoas/WayFarer.svg?branch=develop)](https://travis-ci.org/oyewoas/WayFarer)
-[![Coverage Status](https://coveralls.io/repos/github/oyewoas/WayFarer/badge.svg?branch=develop)](https://coveralls.io/github/oyewoas/WayFarer?branch=develop) 
-[![Maintainability](https://api.codeclimate.com/v1/badges/1ef7827d95d915ca7037/maintainability)](https://codeclimate.com/github/oyewoas/WayFarer/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/1ef7827d95d915ca7037/test_coverage)](https://codeclimate.com/github/oyewoas/WayFarer/test_coverage)
-
-# WayFarer
-WayFarer is a public bus transportation booking server, developed the back-end API with NodeJs and ExpressJs
+# Transport Booking Server
+A public bus transportation booking server, developed the back-end API with NodeJs and ExpressJs
 
 ## Table of Contents (Optional)
 
@@ -19,8 +14,6 @@ WayFarer is a public bus transportation booking server, developed the back-end A
 
 ## Usage
 
-### Developers
-- For developers seeking to use it as a backend infrastructure use this url as your base url https://wayfarerappapi.herokuapp.com/api/v1 and then follow the description in [Usage](#usage) below to get started on how to implement the api endpoints in your app.    
 
 ## Features
    Add to Base URL above
@@ -85,7 +78,7 @@ WayFarer is a public bus transportation booking server, developed the back-end A
 
 - PostgreSQL(https://www.postgresql.org/download/)
 
-- Create a .env file at the project root `wayfarer/.env` see `env_example` file to know what to add to `.env` in your root folder.
+- Create a .env file at the project root `TransportApi/.env` see `env_example` file to know what to add to `.env` in your root folder.
 
 - DBeaver: DBeaver is free and open source universal database tool for developers and database administrators.
   (https://dbeaver.io/download/), this is optional though, you can use any other GUI for postgreSQL.

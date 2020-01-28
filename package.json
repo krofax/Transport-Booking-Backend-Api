@@ -52,6 +52,7 @@
   "scripts": {
     "test": "mocha --require babel-core/register ./test/**/*.js --timeout 10000",
     "create-dev-tables": "babel-node ./app/db/dev/dbConnection createAllTables",
+    "seed-user-table": "babel-node ./app/helpers/seed seedUser",
     "start": "nodemon --watch . --exec babel-node -- server",
     "setup": "npm-run-all -p start create-dev-tables"
   },
