@@ -130,7 +130,7 @@ const deleteBooking = async (req, res) => {
 };
 
 /**
- * Update A User to Admin
+ * Update A Booking Seat
  * @param {object} req 
  * @param {object} res 
  * @returns {object} updated user
